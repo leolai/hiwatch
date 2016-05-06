@@ -1,26 +1,13 @@
 <?php
 
 return [
-
-    /*
-    |--------------------------------------------------------------------------
-    | Authentication Language Lines
-    |--------------------------------------------------------------------------
-    |
-    | The following language lines are used during authentication for various
-    | messages that we need to display to the user. You are free to modify
-    | these language lines according to your application's requirements.
-    |
-    */
-
-    'failed' => 'These credentials do not match our records.',
-    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
-    'login'=>'登录',
-    'remember'=>'记住我',
-    'submit'=>'提交',
-    'name'=>'用户名',
-    'password'=>'密码',
-    'password_confirmation'=>'确认密码',
-    'email'=>'邮箱',
-    'logout'=>'注销',
+    'status_new'            =>  '新订单',
+    'status_process'        =>  '开始处理',
+    'status_transportation' =>  '已发货',
+    'status_refund'         =>  '退款',
+    'status_reissue'        =>  '补发',
+    'status_finish'         =>  '已完成',
+    'user'         =>  '用户',
+    'amount'         =>  '总价',
+    'time'         =>  '时间',
 ];

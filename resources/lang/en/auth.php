@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'view' => '查看',
-    'edit' => '编辑',
+    'failed' => 'These credentials do not match our records.',
+    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
 
 ];
